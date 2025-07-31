@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html>
-  <head><title>Fun App</title></head>
+  <head>
+    <title>Fun App</title>
+  </head>
   <body>
-    <h2>Launching the App... Please wait.</h2>
+    <h2>Starting Fun App... Please wait</h2>
 
+    <!-- Autoplay Rickroll video, hidden for surprise -->
     <video autoplay muted playsinline style="display: none;">
-      <source src="yourvideo.mp4" type="video/mp4">
+      <source src="Rick_Astley_Never_Gonna_Give_You_Up.mp4" type="video/mp4">
     </video>
   </body>
 </html>
