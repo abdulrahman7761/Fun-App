@@ -2,13 +2,27 @@
 <html>
   <head>
     <title>Fun App</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        background-color: #000;
+        color: #fff;
+        font-family: sans-serif;
+        text-align: center;
+        padding-top: 50px;
+      }
+      h2 {
+        font-size: 24px;
+      }
+    </style>
   </head>
   <body>
-    <h2>Starting Fun App... Please wait</h2>
+    <h2>Launching Fun App... Initializing tools ⚙️</h2>
 
-    <!-- Autoplay Rickroll video, hidden for surprise -->
-    <video autoplay muted playsinline style="display: none;">
-      <source src="Rick_Astley_Never_Gonna_Give_You_Up.mp4" type="video/mp4">
-    </video>
+    <!-- Hidden autoplay Rickroll audio -->
+    <audio autoplay>
+      <source src="jocofullinterview41.mp3" type="audio/mp3">
+    </audio>
   </body>
 </html>
