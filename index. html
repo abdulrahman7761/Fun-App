@@ -6,23 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <style>
       body {
-        background-color: #000;
+        background-color: #111;
         color: #fff;
-        font-family: sans-serif;
+        font-family: Arial, sans-serif;
         text-align: center;
-        padding-top: 50px;
+        padding-top: 100px;
       }
-      h2 {
-        font-size: 24px;
+
+      button {
+        background-color: #00d084;
+        color: white;
+        font-size: 18px;
+        border: none;
+        padding: 15px 30px;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      button:hover {
+        background-color: #00b070;
       }
     </style>
   </head>
   <body>
-    <h2>Launching Fun App... Initializing tools ⚙️</h2>
+    <h2>Welcome to Fun App 🎮</h2>
+    <p>Click below to start</p>
+    <button onclick="startFun()">Launch</button>
 
-    <!-- Hidden autoplay Rickroll audio -->
-    <audio autoplay>
-      <source src="jocofullinterview41.mp3" type="audio/mp3">
-    </audio>
+    <script>
+      function startFun() {
+        var audio = new Audio("jocofullinterview41.mp3");
+        audio.play();
+      }
+    </script>
   </body>
 </html>
