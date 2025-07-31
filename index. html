@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+  <head><title>Fun App</title></head>
+  <body>
+    <h2>Launching the App... Please wait.</h2>
+
+    <video autoplay muted playsinline style="display: none;">
+      <source src="yourvideo.mp4" type="video/mp4">
+    </video>
+  </body>
+</html>
